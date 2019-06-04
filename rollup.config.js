@@ -17,9 +17,10 @@ export default [
         presets: ['@babel/env', '@babel/preset-react'],
       }),
     ],
-    external: ['react', 'prop-types'],
+    external: ['react', 'prop-types', 'styled-components'],
     globals: {
       react: 'React',
+      'styled-components': 'styled',
     },
   },
 ]
